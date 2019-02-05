@@ -4,6 +4,8 @@ Here is the data of the Complex Networks 2018 paper *"Multilayer Networks of Mov
 
 The data represents movie scripts under the form of temporal multilayer networks extracted from aligning scripts and subtitles. Please read the paper in `Paper/` for a full description.
 
+## Model
+
 Each movie proposes a list of CSV files as follows (the headers should be self explanatory).
 #### Nodes and time information:
 
@@ -14,6 +16,8 @@ Each movie proposes a list of CSV files as follows (the headers should be self e
 - `character_character_edges.csv`: list of edges connecting characters derived from dialogues (contains source node, target node, scene id - direction does not matter here), - `keyword_keyword_edges.csv`: list of edges connecting keywords derived from dialogue co-occurrence (contains source node, target node, scene id, dialogue id - direction does not matter here),- `location_location_edges.csv`: list of edges connecting locations derived from scene transition (contains source node, target node, source scene id, target scene - direction matters here),
 - `character_keyword_edges.csv`: list of edges connecting keywords to characters derived from dialogue utterances,- `character_location_edges.csv`: list of edges connecting locations to characters derived from scene occurrences,
 - `keyword_location_edges.csv`: list of edges connecting keywords to locations derived from dialogue utterances in scenes.
+
+
 
 ## Citation
 If you use the data, please consider citing our paper as follows:
