@@ -30,6 +30,5 @@ If you use the data, please consider citing our paper as follows:
   pages = {782--796},
   year = {2018},
   url = {https://doi.org/10.1007/978-3-030-05411-3\_62},
-complexnetworks/MourchidRCH18},
 }
 ```
